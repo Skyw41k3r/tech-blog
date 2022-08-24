@@ -7,6 +7,7 @@
 
 # Deployment 🚀
 This assignment was deployed on heroku!
+https://tech-blog-sky.herokuapp.com/
 
 
 # Preview 📷
