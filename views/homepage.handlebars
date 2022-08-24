@@ -1,0 +1,15 @@
+<div class="container">
+
+    <div class=" col s12 m6">
+      <div class="card blue darken-1">
+        <div class="center card-content white-text">
+          <span class="center card-title white-text">Home Page Description</span>
+          <p>This is the home page to my tech blog! click on the nav bar to see more!</p>
+        </div>
+        
+      </div>
+    </div>
+     {{#each posts as |post|}}
+        {{> post-info post }}
+    {{/each}}
+</div>

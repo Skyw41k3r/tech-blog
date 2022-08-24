@@ -16,14 +16,14 @@
                 <label class="active" for="content">Content</label>
             </div>
         </div>
-        <button class="waves-effect waves-light btn" type="submit" name="action">Post</button>
+        <button class="waves-effect waves-light blue btn" type="submit" name="action">Post</button>
         </form>
     </section>
 </div>
 {{#if posts.length}}
 <section>
-    <div class="container">
-        <h2> Your Posts:</h2>
+    <div class="center container">
+       
         {{#each posts as |post|}}
         {{>post-info}}
         {{/each}}

@@ -1,13 +1,13 @@
-<div class="container">
+<div class="center-align container">
     {{> post-info post}}
 
     {{#if loggedIn}}
 
     <div class="row">
-        <form class="col s12 add-comment">
+        <form class=" add-comment">
             <h2> Add Comment:</h2>
             <div class="row">
-                <div class="input-field col s12">
+                <div class="blue input-field col s12">
                     <input type="hidden" name="post-id" id="post_id"/>
                     <textarea id="comment" class="materialize-textarea"></textarea>
                     <label for="textarea1">Comment:</label>
