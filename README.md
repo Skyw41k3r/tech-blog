@@ -2,7 +2,7 @@
 
 # About📃
 
-- This assignment incressed my comfterbility of working with the Model–view–controller.
+- This assignment increased my comfterbility of working with the Model–view–controller.
 
 
 # Deployment 🚀
